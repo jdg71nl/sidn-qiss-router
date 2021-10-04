@@ -2,7 +2,7 @@
 
 Welcome to the [github.com/sidn-qiss-router](https://github.com/jdg71nl/sidn-qiss-router) repository README.
 
-This public repositery contains the `source code` and `documentation` to reproduce the QISS Router 'prototype', that we have been developing in the last 12 months.
+This public repositery contains the `source code` and `documentation` to reproduce the QISS Router 'prototype', that we have been developing in the last 12 months (sep-2020 until sep-2021).
 
 ## About QISS
 

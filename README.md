@@ -2,15 +2,21 @@
 
 Welcome to the [github.com/sidn-qiss-router](https://github.com/jdg71nl/sidn-qiss-router) repository README.
 
+This public repositery contains the `source code` and `documentation` to reproduce the QISS Router 'prototype', that we have been developing in the last 12 months.
+
 ## About QISS
 
 QISS is the "Quality Internet Session System"
 
 ![QISS-Router-Concept](./img/d200622-QISS-Router-Concept-v1.0-2048x678.png)
 
+### Introduction (in NL/Dutch)
+
+Iedereen kent het wel, het haperen, stilstaan of wegvallen van de verbinding wanneer je aan het videobellen bent. Achterliggende reden is dat in het huidige internet (een wereldwijd data-transport netwerk, bestaande uit WiFi en 4G/5G mobiele netwerken, bedrijfsnetwerken en thuisnetwerken) geen Quality of Service bestaat. Met andere woorden, geen garantie dat jouw video-conference gesprek of audio-gesprek niet weggedrukt wordt door andere applicaties. Dit project ontwikkelt een prototype van het QISS systeem. Het QISS systeem bestaat uit een router en software voor op je pc of laptop, die registreert welk verkeer voorrang moet krijgen en dwingt deze transportgarantie ook echt af. 
+
 ## About SIDN-fonds
 
-![](sidn-fonds-logo.png)
+![SIDN-fonds-logo](./img/sidn-fonds-logo.png)
 
 The SIDN-fonds, or 'SIDN Fund', is supporting and funding specific projects that aline with their goals.
 
@@ -24,5 +30,9 @@ Our goals are:
 - Empowerment
 - Tech for Good
 
+This project site: https://www.sidnfonds.nl/projecten/quality-internet-session-system-qiss
+
 ## About John de Graaff
+
+John holds a Master of Science degree (in Electrical Engineering, at the Delft University of Technology), and has 20+ years of experience in the Data Networking field, and is holder of multiple patents (so, inventions), and next to his knowledge on networking protocols and systems, he is also a Software Developer, which capacities he combined in the invention of this QISS system.
 

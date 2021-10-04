@@ -1,0 +1,14 @@
+# sidn-qiss-router / project/info.txt
+
+# root-folders (inside shared repo):
+- qiss-admin-client   (=Web-UI in Semantic-UI+React.js)
+- qiss-admin-server   (=API in Node.js+MongoDB)
+- qiss-user-agent     (=Python-script to register traffic sessions)
+- qiss-router-daemon  (=Kernel-module in C)
+
+
+# published on:
+https://github.com/jdg71nl/sidn-qiss-router
+
+
+#-EOF

@@ -10,9 +10,18 @@ QISS is the "Quality Internet Session System"
 
 ![QISS-Router-Concept](./img/d200622-QISS-Router-Concept-v1.0-2048x678.png)
 
-### Introduction (in NL/Dutch)
+### Background on QISS (in NL/Dutch)
 
 Iedereen kent het wel, het haperen, stilstaan of wegvallen van de verbinding wanneer je aan het videobellen bent. Achterliggende reden is dat in het huidige internet (een wereldwijd data-transport netwerk, bestaande uit WiFi en 4G/5G mobiele netwerken, bedrijfsnetwerken en thuisnetwerken) geen Quality of Service bestaat. Met andere woorden, geen garantie dat jouw video-conference gesprek of audio-gesprek niet weggedrukt wordt door andere applicaties. Dit project ontwikkelt een prototype van het QISS systeem. Het QISS systeem bestaat uit een router en software voor op je pc of laptop, die registreert welk verkeer voorrang moet krijgen en dwingt deze transportgarantie ook echt af. 
+
+### About this repository
+
+The QISS-Router prototype at this stage consists of 4 separate programs, that are split into folders:
+
+qiss-admin-client   (=Web-UI in Semantic-UI+React.js)
+qiss-admin-server   (=API in Node.js+MongoDB)
+qiss-user-agent     (=Python-script to register traffic sessions)
+qiss-router-daemon  (=Kernel-module in C)
 
 ## About SIDN-fonds
 

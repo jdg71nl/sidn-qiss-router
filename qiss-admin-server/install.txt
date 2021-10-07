@@ -1,0 +1,24 @@
+# install.txt
+
+> sudo -i
+> curl https://deb.nodesource.com/setup_14.x | bash
+> apt install nodejs
+> npm install express-generator -g
+
+# as normal user, do:
+> cd sidn-qiss-router/qiss-admin-server/
+# before: > express --no-view .
+> express --no-view .
+> npm install
+
+# as normal user, do:
+> npm install joi --save
+> npm install lodash --save
+
+> cat > run-debug.sh 
+#!/bin/bash
+DEBUG=api:* npm start
+#-EOF
+> chmod +x run-debug.sh 
+
+#-EOF

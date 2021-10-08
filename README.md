@@ -18,10 +18,10 @@ Iedereen kent het wel, het haperen, stilstaan of wegvallen van de verbinding wan
 
 The QISS-Router prototype at this stage consists of 4 separate programs, that are split into folders:
 
-qiss-admin-client   (=Web-UI in Semantic-UI+React.js)
-qiss-admin-server   (=API in Node.js+MongoDB)
-qiss-user-agent     (=Python-script to register traffic sessions)
-qiss-router-daemon  (=Kernel-module in C)
+- qiss-admin-client   (=Web-UI in Semantic-UI+React.js)
+- qiss-admin-server   (=API in Node.js+MongoDB)
+- qiss-user-agent     (=Python-script to register traffic sessions)
+- qiss-router-daemon  (=Kernel-module in C)
 
 ## About SIDN-fonds
 

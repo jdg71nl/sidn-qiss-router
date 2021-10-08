@@ -45,3 +45,7 @@ This project site: https://www.sidnfonds.nl/projecten/quality-internet-session-s
 
 John holds a Master of Science degree (in Electrical Engineering, at the Delft University of Technology), and has 20+ years of experience in the Data Networking field, and is holder of multiple patents (so, inventions), and next to his knowledge on networking protocols and systems, he is also a Software Developer, which capacities he combined in the invention of this QISS system.
 
+## About the Development & Test environment
+
+![QISS-Dev-Test-Environment](./img/QISS-Dev-Test-Environment.jpg)
+

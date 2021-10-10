@@ -3,8 +3,8 @@ const router = express.Router();
 const Joi = require('joi');
 // const path = require('path');
 
-const jif_db = require('../jifdb');
-let sessions = jif_db.open_collection({collection_name: "sessions"});
+const jif_db = require('jifdb');
+const sessions = jif_db.open_collection({collection_name: "sessions"});
 
 // router.get('/', function(req, res, next) {
 router.get('/', async (req, res) => {
@@ -46,17 +46,23 @@ router.get('/:id', async (req, res) => {
   res.send(get_session);
 });
 
-router.post('/', async (req, res) => {
+router.post('/', (req, res) => {
   // let remoteAddress = req.headers['x-forwarded-for'] || req.socket.remoteAddress 
   // console.log(`# (post) req.body="${ JSON.stringify(req.body) }" `);
+  // const req_body = req.body;
+  // console.log(`# (post) req_body="${ JSON.stringify(req_body) }" `);
+  // const req_body_json = JSON.parse(req.body) ?? {};
+  // console.log(`# (post) req_body_json="${ JSON.stringify(req_body_json) }" `);
   const { error } = validatesession(req.body); 
+  // const { error } = validatesession(req_body); 
+  // const { error } = validatesession(req_body_json); 
   if (error) return res.status(400).send(error.details[0].message);
   try {
     let new_session_hash = { 
-      firstname: req.body.firstname,
-      lastname: req.body.lastname,
+      name: req.body.name,
     };
-    let new_session = sessions.create({item:new_session_hash});
+    const new_session = sessions.create({item:new_session_hash});
+    sessions.save();
     res.send(new_session);
   } catch(err) {
     console.log("error " + err);

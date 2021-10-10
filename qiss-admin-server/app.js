@@ -19,7 +19,7 @@ app.use('/', indexRouter);
 // app.use('/users', usersRouter);
 app.use('/api/sessions', sessionsRouter);
 
-const jif_db = require('./jifdb');
-jif_db.open_database({ db_path: path.join(__dirname, 'jifdb') });
+const jif_db = require('jifdb');
+jif_db.open_database({ db_path: path.join(__dirname, 'jifdb'), show_debug: true });
 
 module.exports = app;

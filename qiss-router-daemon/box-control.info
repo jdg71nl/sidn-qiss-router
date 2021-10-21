@@ -1,0 +1,8 @@
+#
+
+/home/jdg/code/qsboxta/box-control.py --write-simple '{"SID":"0.0.0.0","DID":"223.255.255.255","AVG":200}'
+
+/home/jdg/code/qsboxta/box-control.py --write-simple '{"SID":"0.0.0.0","DID":"223.255.255.255","AVG":0}'
+
+sudo /home/jdg/code/qsboxta/restart.sh
+

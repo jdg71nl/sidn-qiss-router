@@ -47,5 +47,17 @@ John holds a Master of Science degree (in Electrical Engineering, at the Delft U
 
 ## About the Development & Test environment
 
+During development and testing, I have used the following (hardware) components:
+
 ![QISS-Dev-Test-Environment](./img/QISS-Dev-Test-Environment.jpg)
+
+From Left to Right:
+
+- Raspberry Pi 3b+ "Traffic Generator" (to provide an overloaded network environment in which it makes sense to prioritize other (QISS) sessions)
+- Raspberry Pi 4b "QISS Client" (with the `qiss-user-agent` software installed)
+- PC-Engines APU2 "QISS Router" (with the `qiss-router-daemon` and `qiss-admin-server` software installed)
+- PC-Engines APU2 "QISS Monitor" (with the `qiss-admin-client` software installed)
+- Juniper SRX300 "Enterprise Router" (to mimic a typical enterprise network)
+- Raspberry Pi 400 "Web User Interface" (to control the QISS-Client:start/stop, QISS-Router:add/remove-session, QISS-Monitor:view-live-sessions)
+
 
